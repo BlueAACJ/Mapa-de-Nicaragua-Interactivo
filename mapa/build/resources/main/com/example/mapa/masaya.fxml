@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #7badd2;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="838.0" fitWidth="1395.0" layoutX="68.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/masaya%20iglesia.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="725.0" layoutY="1.0" text="Masaya" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="102.0" layoutY="26.0" prefHeight="811.0" prefWidth="1327.0" text="Masaya es un departamento de Nicaragua. Su cabecera departamental es Masaya. Masaya también es el departamento más pequeño de Nicaragua.&#10;Masaya presenta un territorio variado, en los municipios del sur, Catarina, La Concepción, Masatepe, Nandasmo, Niquinohomo y San Juan de Oriente,&#10; el terreno es accidentado y presenta elevaciones superiores a los 500 m s. n. m., además de cauces de ríos temporales que descienden de la Meseta &#10;de los Pueblos, del departamento de Carazo y desembocan en la Laguna de Masaya. Los municipios del norte, Masaya, Nindirí y Tisma presentan un &#10;territorio plano, característico de la Llanura Interlacustre, que se extiende entre el Lago Xolotlán y Cocibolca.&#10;Gastronomía:&#10;Masaya es conocida por la ciudad del chancho con yuca, cajetas y dulces, así como bebidas tradicionales como el cacao, pinolillo, tiste, pozol, pero en&#10;si vamos mostrarle una lista detallada de las comidas típicas de Masaya.&#10;Tamugas, Vaho, Chancho con Yuca, revueltas, cajetas de leche, piñonate, coyotitos, cajeta de coco, atol de maíz, atol duro, cabeza de chancho, pinol de &#10;iguana, tamal pizque, tamal relleno.&#10;Fiestas tradicionales:&#10;Fiestas de Santa Ana y Santiago.&#9;Celebración de Santa Ana&#9;Baile de Chinegros&#9;Virgen de La Asunción.&#9;&#9;&#10;Bajada de San Jerónimo&#9;Virgen de La Merced &#9;Procesión de Octava San Jerónimo&#9;&#9;Procesión de Los Ahüizotes&#10;Procesión del Torovenado del Pueblo&#9;&#9;Procesión del Torovenado El Malinche&#10;Festival Folklórico cierre de Fiestas Patronales&#10;Atractivos turísticos:&#10;Laguna de Apoyo&#9;Parque Nacional Volcán Masaya&#9;Volcán Laguna de Apoyo&#9;Cueva Los Cabros&#9;&#10;Cueva Los Chilamates&#9;&#9;Bajadero de Guadalupe&#9;&#9;Mirador de Catarina&#9;Mirador Los Almendros&#9;&#9;&#10;Iglesia Santa Ana de Nindirí&#9;&#9;Parroquia de Nuestra Señora de la Asunción&#9;&#9;Parroquia de San Jerónimo&#10;Parroquia de San Juan Bautista&#9;Parroquia de San Sebastian&#9;Parroquia El Calvario&#10;Casa de Cultura de Nindirí&#9;&#9;Museo Arqueológico Tenderí&#10;Museo Etnográfico Nacudirí&#9;&#9;Fortaleza El Coyotepe&#10;Petroglifos del Cailagua&#9;&#9;Centro Cultural Antiguo Mercado de Masaya&#10;Antigua Estación de Ferrocarril&#9;Parque Arboretum&#10;Parque Central de Nindirí&#9;&#9;Mercado de Artesanías de Nindirí&#10;Mercado de Artesanías de Masaya" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+</AnchorPane>

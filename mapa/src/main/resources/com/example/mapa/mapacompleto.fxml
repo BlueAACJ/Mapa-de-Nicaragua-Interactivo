@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorpain" prefHeight="805.0" prefWidth="1530.0" style="-fx-background-color: #00cbfe;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fx:id="imageView" fitHeight="703.0" fitWidth="812.0" layoutX="358.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../images/map.png" />
+   </ImageView>
+   <Label fx:id="welcomeText" alignment="CENTER" contentDisplay="BOTTOM" layoutX="486.0" layoutY="22.0" prefHeight="64.0" prefWidth="637.0" text="Mapa de Nicaragua interactivo toca un departamento para descubrir datos sobre el." textAlignment="CENTER" underline="true" wrapText="true">
+      <font>
+         <Font name="Times New Roman Bold" size="25.0" />
+      </font>
+   </Label>
+   <Button fx:id="honduras" alignment="CENTER" layoutX="489.0" layoutY="173.0" mnemonicParsing="false" onAction="#honduras" prefHeight="58.0" prefWidth="118.0" styleClass="button_honduras" stylesheets="@../../../css/Style.css" text="Honduras" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <ColorPicker fx:id="cambio_color" layoutX="14.0" layoutY="759.0" onAction="#changeColor">
+      <value>
+         <Color red="1.0" green="0.009259259328246117" blue="0.009259259328246117" />
+      </value>
+   </ColorPicker>
+   <Button fx:id="raan" contentDisplay="CENTER" layoutX="868.0" layoutY="456.0" mnemonicParsing="false" onAction="#raan" prefHeight="88.0" prefWidth="90.0" styleClass="button_RAAS" stylesheets="@../../../css/Style.css" text="Región Autónoma del Atlántico Sur" wrapText="true">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+      <font>
+         <Font size="13.0" />
+      </font>
+   </Button>
+   <Button fx:id="oceano_atlantico" layoutX="1042.0" layoutY="349.0" mnemonicParsing="false" onAction="#oceano_atlantico" prefHeight="97.0" prefWidth="82.0" styleClass="button_oceano" stylesheets="@../../../css/Style.css" text="Océano Atlántico" wrapText="true">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Button>
+   <ImageView fitHeight="98.0" fitWidth="95.0" layoutX="1406.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../images/brujula.jpg" />
+   </ImageView>
+   <Button fx:id="nueva_segovia" layoutX="587.0" layoutY="301.0" mnemonicParsing="false" onAction="#nueva_segovia" prefHeight="0.0" prefWidth="95.0" styleClass="button_nueva" stylesheets="@../../../css/Style.css" text="Nueva Segovia" wrapText="true" />
+   <Button fx:id="jinotega" layoutX="705.0" layoutY="279.0" mnemonicParsing="false" onAction="#jinotega" prefHeight="43.0" prefWidth="95.0" styleClass="button_jinotega" stylesheets="@../../../css/Style.css" text="Jinotega" />
+   <Button fx:id="raas" alignment="CENTER" layoutX="868.0" layoutY="248.0" mnemonicParsing="false" onAction="#raas" prefHeight="80.0" prefWidth="90.0" styleClass="button_RAAN" stylesheets="@../../../css/Style.css" text="Región Autónoma del Atlántico Norte" textAlignment="CENTER" wrapText="true" />
+   <Button fx:id="oceano_pacifico" layoutX="445.0" layoutY="629.0" mnemonicParsing="false" onAction="#oceano_pacifico" prefHeight="80.0" prefWidth="82.0" styleClass="button_oceano" stylesheets="@../../../css/Style.css" text="oceano pacífico" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Button>
+   <Button fx:id="madriz" layoutX="547.0" layoutY="336.0" mnemonicParsing="false" onAction="#madriz" prefHeight="26.0" prefWidth="72.0" styleClass="button_madriz" stylesheets="@../../../css/Style.css" text="Madriz" />
+   <Button fx:id="matagalpa" layoutX="677.0" layoutY="416.0" mnemonicParsing="false" onAction="#matagalpa" prefHeight="43.0" prefWidth="95.0" styleClass="button_matagalpa" stylesheets="@../../../css/Style.css" text="Matagalpa" />
+   <Button fx:id="boaco" layoutX="680.0" layoutY="483.0" mnemonicParsing="false" onAction="#boaco" prefHeight="34.0" prefWidth="72.0" styleClass="button_boaco" stylesheets="@../../../css/Style.css" text="Boaco" />
+   <Button fx:id="chinandega" layoutX="448.0" layoutY="434.0" mnemonicParsing="false" onAction="#chinandega" prefHeight="43.0" prefWidth="82.0" styleClass="button_chinandega" stylesheets="@../../../css/Style.css" text="Chinandega" />
+   <Button fx:id="esteli" layoutX="567.0" layoutY="384.0" mnemonicParsing="false" onAction="#esteli" prefHeight="26.0" prefWidth="52.0" styleClass="button_esteli" stylesheets="@../../../css/Style.css" text="Esteli" />
+   <Button fx:id="leon" layoutX="531.0" layoutY="455.0" mnemonicParsing="false" onAction="#leon" prefHeight="43.0" prefWidth="72.0" styleClass="button_leon" stylesheets="@../../../css/Style.css" text="Leon" />
+   <Button fx:id="managua" layoutX="604.0" layoutY="517.0" mnemonicParsing="false" onAction="#managua" prefHeight="34.0" prefWidth="72.0" styleClass="button_managua" stylesheets="@../../../css/Style.css" text="Managua" />
+   <Button fx:id="chontales" layoutX="727.0" layoutY="539.0" mnemonicParsing="false" onAction="#chontales" prefHeight="43.0" prefWidth="95.0" styleClass="button_chontales" stylesheets="@../../../css/Style.css" text="Chontales" />
+   <Button fx:id="masaya" layoutX="591.0" layoutY="561.0" mnemonicParsing="false" onAction="#masaya" styleClass="button_masaya" stylesheets="@../../../css/Style.css" text="Masaya" />
+   <Button fx:id="granada" layoutX="650.0" layoutY="574.0" mnemonicParsing="false" onAction="#granada" styleClass="button_granada" stylesheets="@../../../css/Style.css" text="Granada" />
+   <Button fx:id="carazo" layoutX="587.0" layoutY="600.0" mnemonicParsing="false" onAction="#carazo" styleClass="button_carazo" stylesheets="@../../../css/Style.css" text="Carazo" />
+   <Button fx:id="rivas" layoutX="640.0" layoutY="641.0" mnemonicParsing="false" onAction="#rivas" prefHeight="34.0" prefWidth="56.0" styleClass="button_rivas" stylesheets="@../../../css/Style.css" text="Rivas" />
+   <Button fx:id="rio_san_juan" layoutX="829.0" layoutY="658.0" mnemonicParsing="false" onAction="#rio_san_juan" prefHeight="34.0" prefWidth="90.0" styleClass="button_rio" stylesheets="@../../../css/Style.css" text="Rio San Juan" wrapText="true" />
+   <Button fx:id="costa_rica" layoutX="753.0" layoutY="729.0" mnemonicParsing="false" onAction="#costa_rica" prefHeight="43.0" prefWidth="138.0" styleClass="button_honduras" stylesheets="@../../../css/Style.css" text="Costa Rica" />
+</AnchorPane>

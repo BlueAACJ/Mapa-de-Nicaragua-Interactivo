@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #4499d0;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="848.0" fitWidth="1274.0" layoutX="129.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/rivas.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="738.0" layoutY="18.0" text="Rivas" textAlignment="CENTER" textFill="#ffe900" wrapText="true">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="104.0" prefHeight="744.0" prefWidth="1084.0" text="Rivas es un departamento de Nicaragua. Su cabecera departamental es Rivas. Ubicado al sudoeste del país y está dividido en 10 municipios. Cuenta con una superficie de 2 162 km²&#10;Ocupa todo el llamado Istmo de Rivas que separa al Lago Cocibolca o Gran Lago de Nicaragua del Océano Pacífico y comprende a la isla de Ometepe.&#10;El departamento de Rivas limita al norte con los departamentos de Carazo y Granada, al sur con la República de Costa Rica, al este con el Lago Cocibolca y el departamento de Río San Juan, y al oeste con el Océano Gastronomía:&#10;Por ser una ciudad que ha servido como ruta de tránsito gracias a su posición geográfica y aún conserva comunidades indígenas, posee recetas de comidas tradicionales con esa sazón propia de la abuela y que sin duda satisface a más de uno, estos son: moros y cristianos o gallo pinto, ajiaco o ayaco, sopa de piedra (Veracruz del Zapotal), tamales asados, pebre, rosquetes, yoltamales, tanelos rellenos y tortillas dulces.&#10;En la repostería podemos encontrar bizcochos, rosquillas del barrio Las Piedras, viejitas o chancletas, alfeñiques y rosquetes.&#10;Fiestas Tradicionales:&#10;Fiestas Patronales de San Jorge&#9;&#9;Celebración de San Juan Bautista&#10;Homenaje a la Virgen del Carmen&#9;&#9;Celebración de Santa Ana.&#10;Actividades en honor San Pedro &#9;&#9;Actividades en honor San Pablo&#10;Celebración San Francisco de Asís&#9;&#9;Atractivos Turísticos: &#10;Cerro Chico Largo&#9;&#9;&#9;&#9;Volcán Concepción&#9;&#9;&#10;Volcán Maderas&#9;&#9;&#9;&#9;Cascada de San Ramón&#9;&#9;&#10;Charco Verde&#9;&#9;&#9;&#9;&#9;Reserva Natural Playa La Flor&#10;Reserva Natural Privada Estancia del Congo&#9;Reserva Silvestre Privada La Primavera&#10;Sendero Ecoturístico Peña Inculta&#9;&#9;Vivero de tortugas marinas de Punta Teonoste&#10;Playa Colorado&#9;&#9;Playa El Astillero&#9;&#9;Playa El Coco&#10;Playa El Ostional&#9;&#9;Playa La Flor&#9;&#9;&#9;Playa Maderas&#10;Playa Majagual&#9;&#9;Playa Marsella&#9;&#9;&#9;Playa San Juan del Sur&#10;Punta Jesús María&#9;&#9;Río Istián&#9;&#9;&#9;El Ojo de Agua&#10;Museo de Antropología e Historia de Rivas&#9;Canopy Tour Da Flying Frog&#10;Ciclismo en la Isla de Ometepe" wrapText="true">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <textFill>
+         <RadialGradient centerX="0.5" focusDistance="0.037383231047158016" radius="1.0">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill></Label>
+</AnchorPane>

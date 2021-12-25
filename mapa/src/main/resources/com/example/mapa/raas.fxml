@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: d0d1c3;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="183.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/garc3adfuna2.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="583.0" layoutY="22.0" text="Región Autónoma del Atlántico Sur" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="57.0" prefHeight="747.0" prefWidth="1084.0" text="La Región Autónoma de la Costa Caribe Sur (abreviada RACCS y que antes se conocía como Región Autónoma del Atlántico Sur, RAAS) es una región autónoma de Nicaragua. Es la tercera entidad subnacional más grande de Centroamérica después del departamento de Petén en Guatemala y la Región autónoma de la Costa Caribe Norte. Su cabecera regional autónoma es Bluefields. El municipio más poblado es Nueva Guinea.&#10;Posee una extensión territorial de 27 260 km² siendo la tercera entidad subnacional más grande en Centroamérica por territorio, después del departamento de Petén en Guatemala y la Región autónoma de la Costa Caribe Norte.&#10;En la amplia gama de comidas típicas del Atlántico se cuentan entre otros el famoso:&#10;Run-Down&#9;Ginger Beer&#9;&#9;Patty&#9;&#9;&#9;Pan Bon&#10;Johnny Cake&#9;Ginyabeer&#9;&#9;Patí&#9;&#9;&#9;Yanicake&#10;sopa de mariscos y otros, que hacen el deleite de turistas nacionales y extranjeros y de los propios nativos.&#10;Fiestas tradicionales:&#10;Festival del Palo de Mayo.&#9;&#9;Fiesta del Cangrejo – Día de la Liberación de los Esclavos&#10;El walagallo&#9;&#9;&#9;&#9;Kim Pulanka&#10;fiestas mestizas en honor a San Jerónimo&#10;Atractivos turísticos:&#10;Balneario Marshall Point&#9;&#9;Laguna de Perlas&#9;&#9;Cayos Perla&#10;Isla del Padre&#9;&#9;&#9;&#9;Kahka Creek&#9;&#9;&#9;Playa Bluff&#10;Reserva Natural de Wawashang George's Cay&#9;&#9;&#9;Playa Brig Bay&#9;&#10;Playa Coral&#9;&#9;&#9;&#9;Playa Kelly Gully&#9;&#9;Playa Long Bay&#9;&#10;Playa North End&#9;&#9;&#9;Playa Sally Peaches&#9;&#9;Playa Waula Point&#9;&#10;Río Isic Creek&#9;&#9;&#9;&#9;Río Tuba Creek&#9;&#9;El Faro de El Bluff&#9;&#10;Museo Histórico Cultural CIDCA&#9;Comunidad Marshall Point&#9;Parque de Reyes&#9;&#9;&#10;Actividades en Big Corn Island&#9;Buceando en La Isla del Maíz&#10;Paseo en Bote alrededor de la Isla del Maíz&#10;" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="19.0" />
+      </font></Label>
+</AnchorPane>

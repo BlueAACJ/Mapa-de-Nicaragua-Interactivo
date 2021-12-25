@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #014ea6;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="832.0" fitWidth="1320.0" layoutX="140.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/nueava%20segovia%202.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="688.0" text="Nueva Segovia" textFill="#ffe900" wrapText="true">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="210.0" layoutY="35.0" prefHeight="797.0" prefWidth="1112.0" text="Nueva Segovia es un departamento de Nicaragua. Su cabecera departamental es Ocotal. El municipio más poblado es Jalapa, cerca del puesto aduanero y migratorio de &quot;Las Manos&quot; en la frontera con la República de Honduras.Nueva Segovia fue una de las primeras regiones colonizadas por los conquistadores españoles.En 1525, Gabriel de Rojas exploró el territorio en busca de oro.En 1543, Diego de Castañeda fundó la primera población de Segovia (Ciudad Vieja) nombrándola así para halagar al gobernador Rodrigo de Contreras, natural de esa región de España. Se encontraba localizada en la afluencia de los ríos Coco o Segovia y Jícaro, cerca de la actual Quilalí, pero la invadieron y quemaron los indios de la región, posiblemente matagalpas, llamados en ese tiempo xicaques.En 1611, se funda la segunda Segovia, actual Ciudad Antigua), una próspera población colonial que varias veces asaltaran los piratas y aventureros ingleses que auxiliados por los misquitos remontaban el río Coco. En 1688 la quemaron los bucaneros, en su último y fallido intento por saquear la platería del templo. En 1780, se fundó el poblado de Ocotal en su actual asiento. Fiestas tradicionales Fiesta del Señor de los Milagros en Ciudad AntiguaVirgen de la Candelaria y Feria AgropecuariaFiestas Patronales en honor a San Pedro y San PabloSantiago ApóstolGastronomía:Los platillos tradicionales locales son los chilotes en guisos, tortillas, tamal pisque, tamal dulce, sopa de albóndigas, sopa de cuajada, güirilas, sopa de frijoles, sopa de frijoles con pellejo de cerdo, empanadas revueltas o rellenas, carne enchorizada, picadillo.Así como cabeza de pozol, arroz de maíz, casamiento, caure o nacarigüe, guiso de frijoles tiernos, nacatamales, indio viejo, gallo pinto y canes asada.Los panes preferidos son las rosquillas (suaves y tostadas de maíz), perrerreque, hojaldras rosquetes, pupusas, semitas de trigo, galletas y panecillos.En los dulces se destacan los buñuelos, la cusnaca de jocotes, jocote cocido, ayote en miel, panela, almíbares en época de Semana Santa, caramelos, jalea de mango y merengue, entre otros.Las bebidas tradicionales del municipio son el tiste, pinolillo, pozol, chingue, horchata, pinol tibio, pinol cocido con leche, atol de maíz, chicha de maíz, atol de maíz y el ron de cususa.Lugares turísticos:Santuario Virgen de la piedra Loma Santa Mozonte Iglesia ciudad Antigua Cas museo Santa María de los Rivas Minería de San Albino Talleres de Artesanía Las pilitas Aguas termales Delia Aguas termales Don Alfonso Cerro Mogoton Cañón Cerros Pegados Mirador Finca Las Orquídeas " textFill="#fffafa" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+</AnchorPane>

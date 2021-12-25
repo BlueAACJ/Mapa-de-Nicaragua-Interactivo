@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #c2b1a1;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="866.0" fitWidth="1185.0" layoutX="187.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/chi.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="702.0" layoutY="18.0" text="Chinandega" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="36.0" prefHeight="830.0" prefWidth="1084.0" text="Chinandega es un departamento de Nicaragua. Su cabecera departamental es Chinandega. Está situado en la frontera de la República de Honduras.&#10;El puerto de Corinto, es el más importante del occidente de Nicaragua.&#10;De esta tierra han surgido importantes personajes nicaragüenses, entre los que destacan los siguientes:&#10;Tomás Ruiz Romero, presbítero y prócer de la Independencia de Centroamérica.&#10;Salomón Ibarra Mayorga, poeta y autor de la letra del himno nacional.&#10;Rosa Sarmiento Alemán, madre del poeta Rubén Darío.&#10;Tino López Guerra, músico y compositor reconocido.&#10;Vicente Padilla, pelotero profesional y lanzador en las grandes ligas.&#10;Samuel Wilson, balompedista profesional.&#10;Nuestro municipio debe su nombre a una voz mangueana mezclada con el idioma náhuat o nahoa. Chinantecatl o Xinantecatl, que en una de sus &#10;acepción significa &quot;vecino de Chinantlán&quot; y esta a su vez &quot;Chinan&quot;, cobertizo o bajareque provisional de habitación y de la partícula indicativa de lugar &quot;Tlan&quot;. &#10;Chinandega quiere decir &quot;lugar de enremadas o habitaciones provisionales&quot;.&#10;Fiestas patronales &#10;Fiesta del Señor de los Milagros en Villanueva&#10;Fiestas en Chichigalpa y Posoltega&#10;Fiesta de la Virgen de los Milagros en San Francisco del Norte&#10;Celebración de San Juan Bautista&#10;Celebración en Honor a la Virgen del Perpétuo Socorro (Tonala)&#10;Celebración de Santa Ana.&#10;San Lorenzo&#10;San Roque&#10;Lavada de la Plata en El Viejo&#10;Gastronomía:&#10;Comidas: sopa de queso, tortas de sardinas, arroz con gaspar, tamales pisques, cóctel de concha y pebre&#10;Los dulces o postres de este cálido municipio son el toncuá en miel, almíbares, curbasá y bienmesabe.&#10;Lugares turísticos &#10;Volcán Casita &#10;Volcán Cosiguina &#10;Volcán San Cristóbal &#10;Playa El Rosario &#10;Playa Jiquilillo&#10;Playa Paso Caballo&#10;Playa Puerto Corinto &#10;Humedales de Cosiguina &#10;Estero Padre Ramos &#10;Islotes de Cosiguina " textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font></Label>
+</AnchorPane>

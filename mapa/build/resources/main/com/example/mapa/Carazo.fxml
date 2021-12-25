@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="805.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #529ed2;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="45.0" prefWidth="129.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Button>
+   <ImageView fitHeight="805.0" fitWidth="1530.0" layoutX="161.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/carazo.jpg" />
+      </image></ImageView>
+   <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="753.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" />
+   <Label layoutX="169.0" layoutY="94.0" prefHeight="639.0" prefWidth="1191.0" text="Carazo es un departamento de Nicaragua. Su cabecera departamental es Jinotepe. El municipio más poblado es Diriamba.&#10;Está ubicado en la zona central de la región del pacífico, al sur de la capital de Managua, cerca de la cadena de volcanes de &#10;Nicaragua, pero es el único departamento de la región que no tiene conos volcánicos. Es unos de los departamentos más &#10;pequeños en cuanto a territorio del país.&#10;Es conocido por sus bellas playas y por las festividades religiosas que se dan casi todo el año, las más importantes son las&#10; Fiestas Patronales de San Sebastián, en Diriamba en el mes de enero, las Fiestas patronales de San Marcos patrono de la &#10;ciudad del mismo nombre en el mes de abril y las fiestas de Santiago Apóstol Patrono de Jinotepe, fiestas patronales por &#10;excelencia del departamento.&#10;En la época precolombina, esta región estuvo habitada por tribus Dirianes, de quienes se afirma ofrecieron una fuerte&#10; resistencia a la colonización española. Carazo fue nombrado como departamento en el año de 1891 y debe su nombre &#10;al presidente Evaristo Carazo. Sobresale en este departamento su producción cafetalera, que le diera en otros tiempos &#10;un fuerte auge económico al que debe en gran parte su desarrollo actual.&#10;Gastronomía &#10;Comidas: indio viejo, nacatamales, pinol de iguana.&#10;Los dulces destacados son: dulce de panela, alfeñique, buñuelos, caramelo de nancite, ayote en miel y piñonate.&#10;El pinol, chicha de maíz, chicha de jengibre y chicha bruja representan las bebidas tradicionales de La Paz de Otros:&#10; rosquillas, bollos de elote, empanada de horno, pan de cemita, tortilla dulce, pan de manjar, pan de mujer, picos &#10;dulces (tostados), pan de queso y pan de sapo o pan simple.&#10;Lugares turísticos &#10;Cascadas salto de la culebra &#10;Centro ecoturístico La maquina &#10;Refugio de vida silvestre Rio &#10;Playa Casares&#10;Playa Chacocente &#10;Playa huehute &#10;Playa La boquita " textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+   <Label layoutX="711.0" layoutY="14.0" text="Carazo" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="35.0" />
+      </font>
+   </Label>
+</AnchorPane>

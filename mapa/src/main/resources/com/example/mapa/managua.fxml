@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #759fcf;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="143.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/managua.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="716.0" layoutY="18.0" text="Managua" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="142.0" layoutY="44.0" prefHeight="785.0" prefWidth="1245.0" text="Managua es un departamento de Nicaragua. Su cabecera departamental es Managua. Fue fundado en 1875 y el departamento más poblado &#10;del país. El departamento tiene dos costas, en el Océano Pacífico y en el lago Xolotlán, pero no limita con el lago Xolotlán.&#10;Gastronomía:&#10;En este municipio generalmente por las tardes se puede observar y visitar las fritangas que son espacios donde se ofrecen diversos platillos &#10;y frescos, entre los más comunes están: las tajadas con carne, maduro con carne, pollo asado, enchilada, papas rellenas, tacos, tajadas con &#10;queso, fresco de cebada, cacao y chía con tamarindo.&#10;Gastronomía:&#10;Existen otros platos y bebidas típicas locales como: caballo bayo, arroz con gaspar, leche agria, nacatamal, baho de carne de res, chancho &#10;con yuca, sopa de res, sopa de gallina, sopa de mondongo, barquillos, galletas dulces cantón, galletas simples, pío quinto, sopa borracha,&#10; tres leches, almibares, ícacos en miel, manjares, pelotas o turrones (crispetas), raspados, chicha de las siete quebradas (Semana Santa), &#10;pinolillo, pozol, ponche, atoles de maíz y trigo y atol duro.&#10;Fiestas patronales:&#10;Fiestas de Santo Domingo de Guzmán&#10;La gritería&#9;&#9;Fiestas hípicas &#10;Atractivos Turísticos:&#10;Laguna de Xiloa&#9;Apoyeque Volcano&#9;Arboretum Nacional Juan Bautista Salas&#10;Reserva Natural Chocoyero - El Brujo&#9;Reserva Natural Privada Montibelli&#10;Playa Los Cajones&#9;Playa Masachapa&#9;Playa Montelimar&#9;Playa Pochomil&#10;Playa Quizalá&#9;&#9;Playa San Diego&#9;Zoológico Nacional&#9;&#10;Centro Cultural de España en Nicaragua&#9;Centro Cultural Pablo Antonio Cuadra&#10;Sala de Teatro Justo Rufino Garay&#9;&#9;Sala de teatro Victor Romeo&#10;Teatro Nacional Rubén Darío&#9;&#9;&#9;Museo Huellas de Acahualinca&#10;Museo Nacional&#9;&#9;&#9;&#9;Sitio histórico Hacienda San Jacinto&#10;El Estadio Nacional&#9;&#9;&#9;&#9;Mercado Roberto Huembes&#10;Centro Histórico de Managua&#10;&#10;" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+</AnchorPane>

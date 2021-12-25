@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #39c9fd;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1238.0" layoutX="146.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/Juigalpa-Chontales-50.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="713.0" layoutY="14.0" text="Chontales" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="151.0" layoutY="44.0" prefHeight="742.0" prefWidth="1225.0" text="Chontales es un departamento de Nicaragua. Su cabecera departamental es Juigalpa. Dentro de la división territorial y administrativa de la &#10;Capitanía General de Guatemala existió el llamado Corregimiento de Chontales.El departamento de Chontales se deriva del vocablo indígena &#10;náhuatl &quot;chontalli&quot;, que significa &quot;pueblo de afuera, extranjero&quot;;&#10;En la serranía al norte del lago Xolotlán o lago de Managua hacia la península de Cosigüina, vivían los temidos chontales, a quienes los chorotegas &#10;(dirianes y nagrandanos) y los nahoas o niquiranos calificaron de &quot;gente ruda&quot; y de &quot;alguien que habla como balbuceando&quot; (popoluca o popoloca &#10;en náhuatl), y con los cuales sostuvieron continuas guerras.&#10;Dentro de los platillos autóctonos de Chontales, se encuentran:&#10;Bewtrbú' t'o' xix chicharrón (Tamal de frijol con chicharrón)&#10;Be'ew'tr e'kt'o xix bek'ch'um (Tamal de chaya con semillas de calabaza)&#10;Chapä ja'as (Plátano sancochado): Se colocan los plátanos en la olla, sobre tamales, lo que le da un sabor original. Pueden servirse naturales o &#10;acompañados de crema y queso.&#10;Chirmol de pato&#10;Chtchtkbe'wáj de píyo (Tamal colorado de gallino)&#10;Ichir-ibam (Pejelagarto en chirmole)&#10;Penchuque: Tortilla muy gorda y grande, por lo común aderezada con coco, frijoles o chicharrón, para darle mejor sabor.&#10;Tamal de mojarra con plátano verde&#10;Totoposte: Tortilla grande muy delgada y tostada de unos 30 cm de diámetro, elaborada con masa muy fina de maíz y manteca de cerdo.&#10;Uliche: Platillo prehispánico, quizá el más antiguo de los platillos típicos de Tabasco, que se prepara principalmente para el día de muertos &#10;y en rezos en las comunidades rurales, aunque puede ser consumido cualquier otro día, y consiste en caldo elaborado de masa batida y agua, &#10;con carne de pavo o res con hueso, hervida, al que se le adiciona un guiso de cebolla, tomate, chile dulce y ajo, ya servido, se le pone semillas&#10; de calabaza y chile amashito al gusto.&#10;Xhixhi vewaj (Tamales de carne deshebrada con maíz nuevo): Tamal típico de la zona indígena, que se elabora batiendo la masa con carne &#10;deshebrada, con un toque de manteca, su característica principal es su envoltura, ya que, para envolverlo, se unta una pasta de maíz nuevo &#10;en el &quot;joloche&quot; con un toque de dulce, lo que le da un sabor especial.&#10;Xguaj: Tortilla &quot;gruesa&quot; grande elaboradas de masa de maíz y hecha a mano sobre hoja de plátano. Para su elaboración el maíz se pone a &#10;cocer con cal, luego este se lava perfectamente con agua, se muele y se amasa y luego se procede a elaborar las tortillas a mano para &#10;posteriormente ponerlas en un comal.&#10;Fiestas patronales &#10;San Bartolo &#10;Virgen de la Asunción &#10;Fiesta acoyapa &#10;Fiestas patronales en Honor a la Virgen De la Luz.&#10;Santo Tomas &#10;Lugares Turísticos &#10;Por su parte, el delegado de INTUR en Chontales, Marlon Vargas, dio a conocer una serie de destinos que poseen cada uno de los &#10;municipios, como el río Bulún, la Poza Azul, la Peña del Toro y los humedales de Santa Clara." wrapText="true">
+      <font>
+         <Font size="19.0" />
+      </font></Label>
+</AnchorPane>

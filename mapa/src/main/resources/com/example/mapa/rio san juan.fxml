@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #aaaaaa;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="142.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/La-Fortaleza.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="699.0" layoutY="18.0" text="Rio San Juan" textFill="#ffe900" wrapText="true">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="48.0" prefHeight="782.0" prefWidth="1084.0" text="Río San Juan es un departamento de Nicaragua. Se constituyó en 1957, de territorio de Chontales y Zelaya. Su superficie es de 7.473 km² y tiene una población de 95.500 habitantes (censo de 2005). Su capital es San Carlos. El departamento también incluye el archipiélago de Solentiname y el río San Juan, del que toma nombre.El río resultó ser una magnífica conexión para la Provincia de Nicaragua con el resto del territorio español. A través de él, Granada y otras colonias comerciaban con ciudades como La Habana, Cartagena de Indias y Portobelo. Esto fue conocido por los piratas que asolaban el caribe, y pronto hicieron incursiones a través del San Juan.&#10;Gastronomía: &#10;La dieta de este municipio se basa en el consumo de pescado en diferentes maneras, algunas de ellas son: pescado asado, pescado frito, pescado lagunero, deditos de pescado, chorizo de pescado de machaca, croquetas de machaca, sopa mahueso, sopa de pescado con cangrejo, entre otros.&#10;Camarones: camarón al ajillo, camarones empanizados, ceviche de camarones, ceviche de robalo, ceviche mixto.&#10;Diferentes variedades de queso y cuajada propios del lugar:&#10;Quesos morolique con chile y crema, queso y cuajada con vegetales, cuajadas frescas, ahumadas y secas.&#10;Postres o dulces: empanadas plantintack, pan de coco, pudín de arroz, queque de quequisque, cajeta de coco con tamarindo, cajeta de leche con cacao, coyol en miel de piñonate&#10;Bebidas: agua de coco, agua de sapo, jengibre con rapadura de dulce, chicha de coyol, leche con carol, pozol de semilla de almendra y Fiestas Tradicionales:&#10;Procesión de la Virgen de los Pescadores&#9;&#9;San juan Bautista &#10;San Juan Evangelista&#9;&#9;&#9;&#9;&#9;Virgen de Lourdes&#10;La Feria del Café&#10;Lugares Turísticos:&#10;Greytown&#9;&#9;Isla El Padre&#9;&#9;Isla la Venada&#9;&#9;&#9;Isla Mancarrón&#10;Isla San Fernando&#9;Isla Zapote&#9;&#9;El Castillo de la Inmaculada Concepción&#10;Solentiname&#9;&#9;Reserva Natural Bartola&#9;Refugio de Vida Silvestre Los Guatuzos&#10;Laguna Azul&#9;&#9;Refugio de Vida Silvestre Los Guatuzos&#10;Reserva Natural Esperanza Verde&#9;&#9;&#9;Río San Juan&#10;Centro Cultural José coronel Urtecho&#9;&#9;&#9;Artesanías en la isla Mancarrón&#10;Artesanías y Pinturas en la Isla San Fernando&#9;Taller Carbonero Rosales&#10;Kayak en Río San Juan&#9;&#9;&#9;&#9;Reserva Indio Maíz" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <textFill>
+         <LinearGradient endX="0.7824427189717765" endY="0.3816793328933133" startX="0.7824427917713428" startY="0.37786265365950017">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </LinearGradient>
+      </textFill></Label>
+</AnchorPane>

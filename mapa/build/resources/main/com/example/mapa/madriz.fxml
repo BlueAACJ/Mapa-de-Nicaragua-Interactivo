@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #f4ca5a;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="217.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/madriz30.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="738.0" layoutY="18.0" text="Madriz" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="217.0" layoutY="36.0" prefHeight="795.0" prefWidth="1113.0" text="Madriz es un departamento de Nicaragua. Su cabecera departamental es Somoto. Se encuentra al norte del país, en la &#10;frontera con Honduras. El departamento de Madriz limita al norte con el departamento de Nueva Segovia, al sur con los &#10;departamentos de Estelí y Chinandega, al este con el departamento de Jinotega y el oeste con la República de Honduras.&#10;La región formaba antiguamente parte del extenso departamento de Nueva Segovia, del que se segregó en 1936 &#10;adoptando el nombre del ilustre presidente José Madriz y tomando a Somoto como cabecera departamental. En las &#10;décadas pasadas su desarrollo se vio favorecido por el paso de la carretera Panamericana hacia Honduras.&#10;Se nombra así en honor al presidente José Madriz, promotor de su fundación. Sus primeros pobladores fueron etnias &#10;chorotegas que llegaron a través de los ríos Choluteca y Guasaule.&#10;Gastronomía&#10;En comidas típicas y tradicionales se destacan los nacatamales, caure o nacarigüe, güira, guisos de flor de izote de &#10;mostaza, de paita y de verdolaga, pollo indio al vapor en leche, sopa de semilla de ayote, tamal de maíz tierno, tamal &#10;de ojoche, tortilla de maíz cipe, gallo pinto, y otros.&#10;Se destacan las rosquillas somoteñas; por su calidad y su sabor exquisito, son muy cotizadas y comercializadas en todos &#10;los departamentos de Nicaragua, Centroamérica y Estados Unidos. También elaboran diferentes tipos de pan casero.&#10;Como gastronomía también se destacan los atoles de elotes, agrio o chuco, de guácimo o tapaculo, de nance, de &#10;naranjo agrio y de piñuela.&#10;Los dulces tradicionales preferidos son el bien me sabe, cajeta de torrejas, roscas bañadas en miel, almíbar de chilacayote, &#10;leche burra, melcochas y puritos.&#10;Fiestas Tradicionales &#10;Celebración de Santa Ana&#9;Virgen de La Asunción.&#10;Atractivos turísticos &#10;Reserva Natural La Pataste&#9;Los Miradores de Cusmapa&#9;Cañón de Somoto&#10;Santuario de Cacaulí&#9;Artesanías de tusa de Totogalpa&#9;Taller de artesanía de pino en Cusmapa&#10;Taller de artesanías en Loma Panda&#9;&#9;&#9;&#9;&#9;Museo Piedra Pintada&#10;Talleres de Rosquillas" textFill="WHITE">
+      <font>
+         <Font size="19.0" />
+      </font></Label>
+</AnchorPane>

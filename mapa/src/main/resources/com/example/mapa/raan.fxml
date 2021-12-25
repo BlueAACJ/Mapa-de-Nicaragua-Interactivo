@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #332a0d;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="27.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/la-importancia-de-las-tradiciones-en-nicaragua.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="567.0" layoutY="18.0" text=" Región Autónoma del Atlántico Norte" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="57.0" prefHeight="702.0" prefWidth="1084.0" text="La Región Autónoma de la Costa Caribe Norte, es una región autónoma de Nicaragua. Su cabecera regional autónoma es Puerto Cabezas, es la segunda entidad subnacional más grande de Centroamérica.&#10;Posee una extensión territorial de 33 106 km² siendo la segunda entidad subnacional más grande en Centroamérica por territorio, después del departamento de Petén en Guatemala. En su costa se encuentran los Cayos Miskitos.&#10;La Región autónoma de la Costa Caribe Norte se ubica en territorio misquito, siendo Puerto Cabezas su cabecera departamental; vocablo de origen bawihka que significa ojo de serpiente.&#10;Los misquitos eran tribus que habitaban el área de Matagalpa y que fueron obligados a emigrar hacia el Este cuando entraron en conflicto con los españoles.&#10;Fiestas patronales:&#10;Fiesta Patronal del Santo Cristo de Esquipulas en Siuna.&#10;King Pulanka, Fiesta Miskita en Bilwi.&#9;&#9;Prinzapolka&#10;Platillos típicos:&#10;Tortuga y aletas.&#9;&#9;&#9;&#9;&#9;Pescado, con coco, frito en salsa.&#9;&#10;Bolitas de carne de tortuga y pescado.&#9;&#9;Aleta licuada (ponche de aleta).&#10;Pollo en coco.&#9;&#9;&#9;Camarones con arroz en coco.&#9;Gallo pinto con coco.&#9;&#9;&#10;Rondón de res, con variado bastimento (yuca, banano, quequisque, fruta de pan).&#10;Horneado de pollo, res, cerdo.&#9;&#9;Espagueti horneado.&#10;Lugares turísticos &#9;&#9;&#9;Laguna de krukrali&#9;&#9;Laguna de Wouhnta&#10;Cayos Malvinas &#9;&#9;&#9;Cayos Miskitos &#9;&#9;Balneario Brakira &#10;Casa museo Judith &#9;&#9;&#9;Comunidad Krukira &#9;&#9;Comunidad de Tuapi&#10;Comunidad de Wawa Bar&#10;" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #013e6d;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="836.0" fitWidth="1519.0" layoutX="138.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/tortuga.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="675.0" layoutY="500.0" text="Oceano Atlantico" textFill="#edff00">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="223.0" layoutY="500.0" prefHeight="236.0" prefWidth="1084.0" text="El Atlántico es la parte del océano mundial de la Tierra que separa América —al oeste— de Europa y África —al este— Se extiende desde el océano Glacial Ártico, en el norte, hasta el Antártico, en el sur. Es el segundo océano más extenso de la Tierra tras el Pacífico. Ocupa el 20 % de la superficie del planeta, y el 26 % del total de tierras sumergidas. Es además el océano más joven del planeta, formado hace 200 millones de años por la división del supercontinente Pangea. Frontera Este de Nicaragua " textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="22.0" />
+      </font></Label>
+</AnchorPane>

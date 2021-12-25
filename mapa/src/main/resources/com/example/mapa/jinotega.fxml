@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #4a6292;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <children>
+      <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/jinotega%209.jpg" />
+         </image></ImageView>
+      <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="96.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="722.0" layoutY="18.0" text="Jinotega" textFill="#ffe900" wrapText="true">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="212.0" layoutY="53.0" prefHeight="776.0" prefWidth="1107.0" text="Jinotega es un departamento de Nicaragua. Su cabecera departamental es Jinotega. Está situado en la frontera de la República de Honduras.&#10;El departamento de Jinotega tiene una superficie de 9 222 km². Es uno de los 15 departamentos más extenso del país y se fundó el 15 de octubre de 1891.&#10;El departamento genera su propia energía a través de la Represa del lago Apanás, que también es un atractivo turístico. La serranía Isabelia contiene varios picos y macizos de bosques nubosos como el Chimborazo (1688 m.), el Diablo (1640 m.) con la cascada &quot;la Bujona&quot;. Además, el Macizo de las Peñas Blancas (1745 m.) que contiene varias gotas de agua, y la Reserva de Bosawás, la reserva de la biósfera más grande de Centroamérica.&#10;El 15 de octubre de 1891 se crea el departamento de Jinotega para separarse y dejar de ser parte del departamento de Matagalpa.&#10;El departamento de Jinotega es el más grande de Nicaragua. Debido a su posición geográfica sus habitantes tienen relaciones con las regiones del centro y del este de Nicaragua. Esto explica que es muy antiguo su territorio y que fue ocupado por diferentes grupos humanos. En el norte se establecieron los misquitos y los sumos. Hacia el oeste de los pueblos que hablaban el Matagalpa y el Chorotega. Del poblado original quedan muchas huellas en distintas partes del departamento. En las cercanías de &quot;El Molino&quot;, San Sebastián de Yalí, hay montículos o calpules en los que se encuentran muchos objetos fabricados hace siglos por los indígenas.&#10;Gastronomia:&#10;La gastronomía destacada de este municipio, en comidas las preferidas son las güirilas chorreadas, sopa de pata de cerdo, tamal pizque relleno, frijoles camagües cocidos, güirila, sopa de cuajada, sopa de álbondigas de gallina india.&#10;En los dulces sobresalen las empanaditas dulces, semita de trigo o semita negra, rosquillas, viejitas , hojaldras, rosquetes, cajetas de coco y leche, piñonates, coyolitos, la popular “lengua de suegra”, huevos chimbos y espumillas.&#10;Las bebidas y frescos que más se degustan en esta región son el fresco de naranjilla, el licor de café, y la más representativa del municipio es la agua loja, bebida tradicional para la celebración de la gritería.&#10;Lugares Turísticos &#10;Lago de Apanás&#9;Cerro de la Cruz&#10;Cerro Datanlí &#9;Macizo Kilambé&#10;Macizos de Peñas Blancas&#9;El Jaguar&#10;Centro de Retiro Tepeyac&#9;Canopy La Brellera" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

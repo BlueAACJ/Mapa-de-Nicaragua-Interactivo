@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #478ff5;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="43.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/granada.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_granada" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="720.0" layoutY="18.0" text="Granada" textFill="#ffe900" wrapText="true">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="106.0" layoutY="34.0" prefHeight="793.0" prefWidth="1348.0" text="Granada es un departamento de Nicaragua. Su cabecera departamental es Granada. La ciudad de Granada fue fundada entre Xalteva, (Jalteva), y el lago Cocibolca o Gran Lago de Nicaragua, por el conquistador español Francisco Hernández de Córdoba en el año 1524, constituyéndose en uno de los asentamientos coloniales más antiguos de Centroamérica.&#10;En el departamento de Granada está el Volcán Mombacho, que posee un exótico bosque de nebliselva. Están las extensas costas del gran lago, donde se puede tomar un baño o realizar deportes y actividades acuáticas. Allí se ubica el interesante y muy accesible archipiélago de Las Isletas, conformado por más de 300 pequeñas islas. Lago adentro está el enigmático Archipiélago de Zapatera, que guarda parte de sus bosques y un tesoro arqueológico precolombino poco estudiado.&#10;Otros puntos interesantes granadinos son sus fincas campesinas que ofrecen actividades de turismo rural, así como la ciudad de Nandaime y las pequeñas ciudades de Diriá y Diriomo, que forman parte, ambas, de los llamados Pueblos Brujos o Pueblos Blancos junto con varios de sus vecinos de Masaya. La Reserva Narural Laguna de Apoyo toma parte del departamento.&#10;Granada tiene una extensión departamental de 1,039.68 km², y su población se reparte en partes casi similares entre las zonas urbanas y las rurales (65.2% urbana). El clima predominante es de sabana tropical, con temperaturas bastante calientes en la mayor parte del territorio, aunque un poco más frescas en la Meseta de Los Pueblos. Tiene apenas 4 municipios, lo que lo convierte en el departamento nacional con menos unidades municipales de Gastronomía &#10;Entre los platos típicos de Granada están la mojarra asada, guiso de tortuga, pinol de iguana, arroz con gaspar, chancho con yuca, pebre y vigorón. El guapote y el vigorón se ha convertido en uno de los platillos más representativos. También podemos encontrar:  &#10;Fresco: chicha de maíz, pinol, pinolillo, tiste, cacao con leche, semilla de jícaro, pozol con leche y variedad de refrescos de frutas tropicales.&#10;Dulces: postres o bocadillos como atolillo y perrerreque&#10;Panes: rosquillas, cosa de horno, panes dulces y salados.&#10;Fiestas tradicionales:&#10;Festival Internacional de Poesía&#9;Lunes Santo, Via Crucis Acuático en Las Isletas&#9;Inician Fiestas Patronales de Santa Ana&#9;&#10;Homenaje a la Virgen del Carmen&#9;Santiago Apóstol.&#9;Virgen de La Asunción&#10;Lugares Turísticos: &#10;Cerrito Las Banderas&#9;Cerro Zapatera&#9;Isla Zapatera&#9;Volcán Mombacho&#9;&#10;Mariposario en Granada&#9;Iglesia Catedral de Granada&#9;Iglesia de Guadalupe&#9;Iglesia de Xalteva&#10;Iglesia La Merced&#9;Iglesia San Francisco&#9;Casa de los Tres Mundos&#9;Biblioteca Municipal Manolo Cuadra&#10;Galería Claro Oscuro&#9;Galería Mi Cámara Mi Mundo&#9;&#9;Centro Cultural Convento San Francisco&#9;&#9;ChocoMuseo&#10;Museo Casa Natal Sor María Romero&#9;Fuerte La Pólvora&#9;El Sendero de los Petroglifos&#9;Casa de Los Leones&#10;Palacio de Comunicaciones&#9;Palacio Episcopal&#9;Palacio Municipal&#9;Estación del Ferrocarril&#10;Choco Spa &amp; Cacao Pool Club&#9;Comunidad campesina de La Granadilla&#9;&#9;Comunidad campesina de Nicaragua Libre&#9;&#10;Comunidad de Aguas Agrias&#9;Comunidad de Charco Muerto&#9;Parque Central&#9;&#9;Isletas de Granada&#9;Paseo en Carruaje en Granada" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+</AnchorPane>

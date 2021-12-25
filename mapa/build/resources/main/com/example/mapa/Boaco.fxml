@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="805.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #3b73d3;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="40.0" prefWidth="96.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Button>
+   <ImageView fitHeight="805.0" fitWidth="1159.0" layoutX="216.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/boaco.jpg" />
+      </image></ImageView>
+   <Label layoutX="232.0" layoutY="54.0" prefHeight="680.0" prefWidth="1046.0" text="El Departamento de Boaco, lo integran los municipios de Boaco, Camoapa, San Lorenzo, Teustepe, San José de los Remates y Santa Lucía. Siendo su cabecera departamental la ciudad de Boaco, popularmente conocida como la “Ciudad de Dos Pisos”.&#9;&#10;El nombre de Boaco, se origina de la cultura zumo y azteca, de las raíces. Boa o Boaj, que significa «encantadores», y la terminación «O», que significa «lugar o pueblo», juntos se describe como: «Pueblo o Lugar de Encantadores»&#10;Posee un clima variado, que va desde trópico húmedo de sabana de vegetación hasta bosque a tropical de selva. Pertenece a la parte central del país, a una distancia de 88 Km. de Managua. Topográficamente es irregular, su paisaje es montañoso, posee elevaciones entre los 200 y 300 Mts sobre el nivel del mar. El cerro de la Vieja es la altura máxima con 1,020 Mts. Cuenta con pintorescos paisajes como los Valles de Santa Lucía y San José de los Remates.&#10;Fiestas patronales &#10;Santiago Apóstol.&#10;San Lorenzo.&#10;Virgen de La Asunción&#10;Gastronomía&#10; Los platillos tradicionales son el chingaste de chancho, enchiladita boaqueña, enchiladitas de chancho, morongas, cabeza de chancho en pozol, chancho con yuca, henchida de res, quesos de crema, ahumado, seco, de freír y queso fundido; sopa de huevos de toro, cuajadas frescas, ahumadas, secas; masa de cazuela o indio viejo y las tradicionales fritangasLugares turísticos Cerro Apante Cerro AlegreLa PelonaCerro el PadreEl BoneteLa Virgen entre otras elevaciones." textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="20.0" />
+      </font></Label>
+   <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1240.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
+   <Label layoutX="696.0" layoutY="25.0" text="BOACO" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="41.0" />
+      </font>
+   </Label>
+</AnchorPane>

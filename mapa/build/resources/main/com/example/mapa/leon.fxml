@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #4371be;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="142.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/loen.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="737.0" layoutY="16.0" text="Leon" textFill="#ffe900" wrapText="true">
+      <font>
+         <Font name="System Italic" size="27.0" />
+      </font>
+   </Label>
+   <Label layoutX="142.0" layoutY="45.0" prefHeight="783.0" prefWidth="1246.0" text="León es un departamento de Nicaragua. Su cabecera departamental es León. Tiene una extensión territorial de 5 138 km².2 Está ubicado al occidente del país, y es uno de los departamentos más productivos.&#10;Limita al norte con los departamentos de Chinandega y Estelí, al sur y este con el departamento de Managua, también al este con el departamento de Matagalpa y al oeste con el Océano Pacífico.&#10;El departamento de León tiene un área de 5 138 km² y una población aproximada de 421 050 habitantes distribuidos en sus diez municipios: Achuapa, El Jicaral, El Sauce, La Paz Centro, Larreynaga, León (cabecera departamental), Nagarote, Quezalguaque, Santa Rosa del Peñón y Telica.&#10;El departamento de León se caracteriza por tener paisajes espectaculares, hermosas playas, bellos volcanes y un sinnúmero de destinos atractivos poco explorados. En este departamento se ubican cuatro volcanes de la Cordillera de los Maribios y además se encuentran bellas playas, pueblos históricos y sobre todo iglesias de hermosa arquitectura.&#10;Las comidas típicas características del municipio son el gallo pinto, la carne asada de la Antigua Estación del Ferrocarril, los tacos de la Calle Real, los buñuelos del barrio Guadalupe, y el gonce tradicional -es la vértebra asada de la res-.&#10;Entre otras delicias gastronómicas están el nacatamal, sopa de queso, indio viejo, sopa borracha, carne en baho, conchas rellenas, enchiladas, sopa tapada y los tacos de La Salle.&#10;En León encontrarás otras delicias como cosa de horno, pancito de arroz, pipas, picos y quesadillas.&#10;Las bebidas y frescos característicos de la mesa y la cocina leonesa son la chicha de maíz y negrito, atol rosado, chibolas, atol duro, la chicha de cojombro y morroco.&#10;Fiestas tradicionales:&#10;Procesión del Pase&#9;Viernes Santo, Alfombras Pasionarias&#9;Fiestas Patronales de Santiago Apostol.&#9;&#9;Santiago Apóstol&#10;Virgen de Los Ángeles&#9;Gritería Chiquita&#9;Santa Rosa de Lima&#9;&#9;Virgen de La Merced&#10;Celebración de La Purísima (La Gritería) &#9;Concurso de Gigantonas&#9;&#9;Hípico Nacional&#10;Lugares Turísticos:&#9;&#9;&#9;&#10;Volcán El Hoyo&#9;&#9;&#9;Volcán Momotombo&#9;Volcán Telica&#9;&#9;&#9;&#9;Volcán Cerro Negro&#9;&#9;&#9;Playa El Velero&#9;&#9;&#10;Playa Las Peñitas&#9;&#9;&#9;Playa Poneloya&#9;&#9;Playa Puerto Sandino&#9;&#9;Playa Salinas Grandes&#9;&#9;Hervideros de San Jacinto&#9;&#9;&#10;Catedral de León&#9;&#9;&#9;Iglesia de El Calvario&#9;Iglesia de Guadalupe&#9;&#9;Iglesia de La Recolección&#9;Iglesia de Subtiava&#9;&#9;&#9;&#10;Iglesia de Zaragoza&#9;&#9;&#9;Iglesia del Laborio&#9;&#9;Iglesia La Merced&#9;&#9;&#9;Iglesia San Francisco&#9;&#9;Casa de Cultura de León&#10;Teatro Municipal José de la Cruz Mena&#9;&#9;Museo de Leyendas y Tradiciones&#9;&#9;Museo entomológico&#9;Museo Indígena de Sutiava&#9;&#9;&#9;&#10;Museo Rubén Darío&#9;Ruinas de León Viejo&#9;&#9;&#9;&#9;&#9;Teatro Municipal&#9;&#9;&#9;&#9;Comunidad rural de San Jacinto" wrapText="true">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+</AnchorPane>

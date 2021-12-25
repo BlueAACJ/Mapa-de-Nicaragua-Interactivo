@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #5677ad;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="830.0" fitWidth="1530.0" layoutX="184.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/matagalpa.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_volver" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="708.0" text="Matagalpa" textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="183.0" layoutY="20.0" prefHeight="804.0" prefWidth="1162.0" text="Matagalpa es un departamento de Nicaragua. Su cabecera departamental es Matagalpa. El departamento de Matagalpa es después &#10;de Managua, el segundo departamento más poblado del país y junto al departamento de Chinandega el que más municipios tiene &#10;con un total de 13, aunque en realidad, Matagalpa también administra el municipio de Waslala perteneciente a la Región autónoma&#10; de la Costa Caribe Norte.&#10;El departamento de Matagalpa es después del departamento de Jinotega el segundo más extenso y la quinta entidad nacional más&#10; grande de la República de Nicaragua, representa la segunda entidad más poblada, pero con menor densidad poblacional debido a &#10;su tamaño.&#10;Gastronomía&#10;Los platillos sobresalientes de Matagalpa son las enchiladas de frijoles, enchiladas de carne con arroz, cabeza de chancho en pozol, &#10;güirila, sopa de cuajada con crema y leche, tortas de semillas de ayote y guanacaste, tayuyá, sopa de albóndiga de gallina criolla,&#10; tacos; y los preparados platanitos con frijoles molidos con crema y ensalada y las bocas de pijibay.&#10;Los dulces tradicionales son el almíbar de flor de espadilla, besos, bienmesabe, cajeta de frijol o anté de frijol, cusnaca, melcochas,&#10; leche de burra, almíbar de higos, buñuelos de masa, cajetas de coco y cajetas de leche.&#10;Hay más platillos para disfrutar: chanfaina, chorizo, moronga, tamal pisque, indio viejo, pozol, pinol con chan, chicha de guacalito&#10; de maíz nacido y agualoja.&#10;Dulces: motajatol hecho con piñuelas.&#10;Por el clima frío y la cultura de la medicina natural se consume habitualmente diferentes tipos de tés y bebidas calientes entre las &#10;más comunes: zacate de limón, tizana, D-Tilo, manzanilla, Mostelas. &#10;Fiestas tradicionales:&#10;Fiesta del Señor de Esquipulas &#9;Nuestra Señora de Lourdes &#9;Fiestas Patronales de San José&#9;Santiago Apóstol. &#9;San Ramón&#10;Virgen de La Merced&#9;&#9;&#9;Feria Nacional del Café&#10;Atractivos turísticos:&#10;Cerro Apante&#9;&#9;Cascadas del Río Santa Emilia&#9;Reserva Natural Cerro Arenal&#9;&#9;Reserva Privada Selva Negra&#9;&#9;&#10;Centro Cultural Guanuca&#9;&#9;Museo Carlos Fonseca Amador&#9;Museo Casa Natal de Rubén Darío&#9;&#9;&#10;Museo de Arqueología e Historia Cihuacoatl de Sébaco&#9;Museo del Café&#9;Museo Pre-Colombino de Chagüitillo&#9;&#10;Comunidad El Trentino&#9;Comunidad La Pita&#9;&#9;Comunidad Rural El Roblar&#9;&#9;Comunidad Rural La Corona&#10;Comunidad Rural La Reina&#9;&#9;Finca agroecoturistica La Hermandad&#9;Telares indígenas de El Chile&#9;&#9;&#10;Beneficio Solcafe&#9;&#9;Taller Monkeys Cafe y Cacao&#9;Finca Ecológica El Escondido&#9;Finca Majales" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="19.0" />
+      </font></Label>
+</AnchorPane>

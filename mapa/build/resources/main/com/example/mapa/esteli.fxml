@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="830.0" prefWidth="1530.0" snapToPixel="false" style="-fx-background-color: #252b4b;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mapa.Controller">
+   <ImageView fitHeight="865.0" fitWidth="1107.0" layoutX="196.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../images/esteli.jpg" />
+      </image></ImageView>
+   <Button fx:id="mapacompleto" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#mapacompleto" prefHeight="43.0" prefWidth="91.0" styleClass="button_esteli" stylesheets="@../../../css/Style.css" text="Volver" textAlignment="CENTER" wrapText="true" />
+   <Label layoutX="735.0" layoutY="-4.0" text="Esteli " textFill="#ffe900">
+      <font>
+         <Font name="System Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="196.0" layoutY="10.0" prefHeight="830.0" prefWidth="1107.0" text="Estelí es un departamento de Nicaragua. Su cabecera departamental es Estelí, localizado al norte de la zona central del país. Posee a 2 de los alcaldes más guapos de la zona &#10;norte, entre Marling Rodriguez y William Molina se encuentra el terror de los triniteños los cuales han aumentado el volumen de migración al Diamante de las Segovias.&#10;Fue creado por decreto legislativo el 8 de diciembre de 1891 con cinco municipios: Condega, Estelí, La Trinidad, Pueblo Nuevo, y San Juan de Limay. En 1989 el municipio de &#10;San Nicolás, hasta entonces perteneciente al departamento de León, fue integrado al departamento de Estelí mediante decreto legislativo.&#10;La cabecera departamental es la ciudad de Estelí que a la vez es la ciudad más importante del departamento. Mientras que la Trinidad, conocida como «ciudad del pan», es la &#10;segunda, y Condega la tercera.&#10;Fiestas patronales &#10;La trinidad &#10;Fiestas patronales de San Juan de Limay &#10;Homenaje a la virgen del Carmen &#10;Virgen del Rosario &#10;Virgen de Guadalupe en Condega &#10;Desfile Hípico &#10;Entre los platos, bebidas y dulces típicos del municipio sobresale la sopa de gallina india con albóndigas, platillo predilecto de Estelí e infaltable del comedor nicaragüense; &#10;también el henchido de cerdo, marucas, guiso de vainas de coralillo y güirilas.&#10;Estas últimas se han hecho tan popular en el país que ahora la encontramos en casi todas las regiones del Centro, Norte y Pacífico de Nicaragua.&#10;De los panes y dulces se destacan el a tolillo y el perrerreque a base de maíz, y entre los dulces motasatol, atol de piñuela, cajetas de leche, pirulines y los famosos huevos &#10;chimbos, dulce representativo de los estelianos encontrados en todas las pulperías del Diamante de Las Lugares Turísticos &#10;Cascada Salto de la Estanzuela&#10;Parque Ecológico de Cantagallo&#10;Reserva Natural La Pataste&#10;Reserva Natural Miraflor&#10;Reserva Natural Tisey Estanzuela&#10;Casa de Cultura &quot;Leonel Rugama&quot;&#10;Casa de Cultura Calmecalt de Pueblo Nuevo&#10;Centro cultural y turístico Casa Estelí&#10;Parque de Ciencias Estelimar&#10;Taller de Artesanías de Ducuale Grande&#10;Museo de Ex-Combatientes Históricos&#10;Museo de Historia y Arqueología&#10;La Garnacha&#10;Fábrica de Puros Estelí Cigarros&#10;" textFill="WHITE" wrapText="true">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+</AnchorPane>

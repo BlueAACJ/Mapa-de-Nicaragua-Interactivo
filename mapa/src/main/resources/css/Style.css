@@ -1,0 +1,319 @@
+.button_RAAN
+{
+    -fx-background-color: #ff8727;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_RAAN:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_RAAN:pressed
+{
+    -fx-background-color: #ffc34e;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_RAAS
+{
+    -fx-background-color: #ffbc3a;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_RAAS:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_RAAS:pressed
+{
+    -fx-background-color: #ffbc3a;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_volver
+{
+    -fx-background-color: #ffff00;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_volver:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_volver:pressed
+{
+    -fx-background-color: #ffff00;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_oceano
+{
+    -fx-background-color: #0096d7;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_oceano:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_oceano:pressed
+{
+    -fx-background-color: #0096d7;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_honduras
+{
+    -fx-background-color: #858585;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_honduras:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_honduras:pressed
+{
+    -fx-background-color: #858585;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_boaco
+{
+    -fx-background-color: #929600;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_boaco:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_boaco:pressed
+{
+    -fx-background-color: #929600;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_carazo
+{
+    -fx-background-color: #008155;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_carazo:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_carazo:pressed
+{
+    -fx-background-color: #008155;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_chinandega
+{
+    -fx-background-color: #f05884;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_chinandega:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_chinandega:pressed
+{
+    -fx-background-color: #f05884;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_chontales
+{
+    -fx-background-color: #ab3ceb;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_chontales:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_chontales:pressed
+{
+    -fx-background-color: #ab3ceb;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_esteli
+{
+    -fx-background-color: #f0b955;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_esteli:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_esteli:pressed
+{
+    -fx-background-color: #f0b955;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_granada
+{
+    -fx-background-color: #b2d13f;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_granada:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_granada:pressed
+{
+    -fx-background-color: #b2d13f;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_jinotega
+{
+    -fx-background-color: #73ff94;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_jinotega:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_jinotega:pressed
+{
+    -fx-background-color: #73ff94;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_leon
+{
+    -fx-background-color: #57c05d;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_leon:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_leon:pressed
+{
+    -fx-background-color: #57c05d;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_madriz
+{
+    -fx-background-color: #ffbd09;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_madriz:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_madriz:pressed
+{
+    -fx-background-color: #ffbd09;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_nueva
+{
+    -fx-background-color: #ff336c;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_nueva:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_nueva:pressed
+{
+    -fx-background-color: #ff336c;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_managua
+{
+    -fx-background-color: #ad4c7e;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_managua:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_managua:pressed
+{
+    -fx-background-color: #ad4c7e;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_matagalpa
+{
+    -fx-background-color: #f8c693;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_matagalpa:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_matagalpa:pressed
+{
+    -fx-background-color: #f8c693;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_masaya
+{
+    -fx-background-color: #cdd168;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_masaya:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_masaya:pressed
+{
+    -fx-background-color: #cdd168;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_rio
+{
+    -fx-background-color: #f9bc62;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_rio:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_rio:pressed
+{
+    -fx-background-color: #f9bc62;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button_rivas
+{
+    -fx-background-color: #d94050;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_rivas:hover
+{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30 30 30 30;
+}
+.button_rivas:pressed
+{
+    -fx-background-color: #d94050;
+    -fx-background-radius: 30 30 30 30;
+}
